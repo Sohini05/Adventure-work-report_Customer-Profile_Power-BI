@@ -1,118 +1,119 @@
-🚴‍♀️ Advanced Work Report Dashboard (Customer Profile) – Power BI
-This project presents an interactive Power BI dashboard designed to analyze customer profiles for AdventureWorks Bikes. It delivers actionable insights into customer demographics, income, and behavior to support targeted marketing and strategic business decisions.
+# 🚴 Advanced Work Report Dashboard (Customer Profile) – Power BI
 
-📊 Key Features
-✅ KPI Cards:
-Average Age: 55
+This Power BI project analyzes customer profiles for **AdventureWorks Bikes**. It provides data-driven insights into customer demographics, income levels and behavior patterns to support targeted marketing and strategic planning.
 
-Average Annual Income: ₹57K
+---
 
-Total Sales: ₹25M
+## 📂 Data Preparation
 
-Total Orders: 25K
+- Created an `Age` column from `Birth Date`
+- Ensured accurate data types for numerical and categorical fields
+- Developed interactive visuals with slicers and cross-filtering for enhanced usability
 
-Total Quantity Sold: 84K
+---
 
-📈 Visualizations:
-Sales by Age, Education, and Family Size
+## 🛠 Technologies Used
 
-Home Ownership & Marital Status (Donut Charts)
+- Power BI Desktop  
+- Power Query Editor  
+- DAX (Data Analysis Expressions)
 
-Customer Profit Table
+---
 
-Country-wise Filtering for Geographic Insights
+## 📊 Dashboard Features
 
-🛠 Data Preparation
-Created Age column from BirthDate
+### ✅ KPI Cards
 
-Ensured correct data types for numeric & categorical fields
+- **Average Customer Age:** 55  
+- **Average Annual Income:** ₹57,000  
+- **Total Sales:** $25M  
+- **Total Orders:** 25,000  
+- **Total Quantity Sold:** 84,000  
 
-Built interactive visuals with slicers and cross-filtering
+### 📈 Visualizations
 
-📂 How to Use
-Open the Adv work report.pbix file in Power BI Desktop
+- Sales by Age Group  
+- Education and Family Size Analysis  
+- Home Ownership and Marital Status (Donut Charts)  
+- Customer Sales and Profit Table  
+- Country-wise Filtering via Slicers
 
-Interact with slicers (Country, Gender, Occupation)
+---
 
-Explore insights across demographics, income, and sales performance
+## 📍 How to View the Report
 
-🧰 Tools & Technologies
-Power BI Desktop
+1. Download or clone this repository
+2. Open the `Adv work report.pbix` file in **Power BI Desktop**
+3. Use slicers (e.g., Gender, Country, Occupation) to interact with the report
+4. Explore demographic and behavioral insights
 
-DAX (Data Analysis Expressions)
+---
 
-Power Query Editor
+## 🔍 Key Insights
 
-🔍 Key Insights
-Demographics
-Average Customer Age: 55
+### Demographics
 
-Top Age Group: 41–60 years contributing over ₹18.1M
+- Majority of customers are aged **41–60**, contributing over $18.1M in sales  
+- **Marital Status:** 52% Married, 48% Single  
 
-Gender Split: 52% Male, 48% Female
+### Socioeconomic Profile
 
-Marital Status: 52% Married, 48% Single
+- **Avg. Annual Income:** ₹57,000  
+- **Home Ownership:** 70% own homes  
+- **Family Size:** 72% are small families (0–2 members)
 
-Socioeconomic Profile
-Avg. Annual Income: ₹57,000
+### Education & Occupation
 
-Home Ownership: 70% own homes
+- **Bachelor’s Degree** holders account for $8.4M in sales  
+- Other top groups: Partial College and Graduate Degree  
+- Occupation-based filtering allows deeper exploration:  
 
-Family Size: 72% belong to small families
+### Performance Highlights
 
-Education & Occupation
-Highest sales from Bachelor’s Degree holders (₹8.4M)
+- **Top Age Bracket:** 41–50 years → $10M in sales  
+- **Top Customer Profit:** > ₹5,000
 
-Filters available for:
+---
 
-Professional
+## 🌍 Geographic Filtering
 
-Management
+Analyze customer trends across:
 
-Clerical
+- United States  
+- United Kingdom  
+- Germany  
+- France  
+- Canada  
+- Australia  
 
-Manual
+---
 
-Skilled Manual
+## 💡 Recommendations
 
-Performance Metrics
-Total Sales: ₹25M
+- **Target Mid-Age Professionals:** Focus on age ~55 with $50–70K income and professional background  
+- **Promote to Homeowners:** 70% ownership suggests stability — push premium lifestyle products  
+- **Family-Focused Offers:** 72% live in small families — emphasize shared-use products  
+- **Education-Based Messaging:** Highlight quality and value for degree holders  
+- **Country-Specific Campaigns:** Use slicers to tailor outreach by region
 
-Total Orders: 25K
+---
 
-Top Age Bracket: 41–50 years (₹10M in sales)
+## 🧾 Ideal Customer Summary
 
-Top Customer Profit: > ₹5,000
+> A mid-career professional (~55 years old), earning $50–70K annually, married with a small family, owns a home, and holds at least a Bachelor's degree.
 
-🌍 Geographic Filtering
-Analyze and compare customer data across:
+This dashboard enables AdventureWorks to align product strategies and marketing efforts with real customer profiles — leading to smarter decisions and improved ROI.
 
-Australia
+---
 
-Canada
+## 📎 File
 
-France
+- `Adv work report.pbix` – Power BI file with complete dashboard
 
-Germany
+---
 
-United Kingdom
+## 🙋‍♀️ About Me
 
-United States
+I'm Sohini Mandal — aspiring data analyst passionate about transforming raw data into meaningful stories.  
+Let’s connect on [LinkedIn]. https://www.linkedin.com/in/sohini-mandal05/
 
-💡 Recommendations
-🎯 Focus on Mid-Age Professionals: Age ~55, ₹50–70K income, strong sales impact
-
-🏡 Promote to Homeowners: Stable demographic—target premium lifestyle products
-
-👨‍👩‍👧 Emphasize Family Value: 72% in small families—promote shared experiences
-
-🎓 Leverage Education: Bachelor’s holders drive sales—highlight product quality and reliability
-
-🌐 Run Country-Specific Campaigns: Use location filters to tailor regional promotions
-
-📌 Summary
-The dashboard helps define AdventureWorks' ideal customer:
-
-A mid-career, well-educated professional aged ~55, married with a small family, earning ₹50–70K annually, and likely a homeowner.
-
-Use this profile to refine campaigns, enhance product-market fit, and boost ROI through smart, data-driven targeting.
